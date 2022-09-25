@@ -13,7 +13,7 @@
 [Você ENTENDE REALMENTE o Babel e Webpack que roda em seus Projetos JavaScript? // AluraJS #3 - YouTube](https://www.youtube.com/watch?v=LMCtGvLJT6c)
 
 
-**Passo 1: Criando o package.json:**
+***Passo 1: Criando o package.json:***
 
 ⇒ npm init -y
 

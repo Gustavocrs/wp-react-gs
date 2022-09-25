@@ -13,14 +13,14 @@
 [Você ENTENDE REALMENTE o Babel e Webpack que roda em seus Projetos JavaScript? // AluraJS #3 - YouTube](https://www.youtube.com/watch?v=LMCtGvLJT6c)
 
 
-# Passo 1: Criando o package.json:
+### Passo 1: Criando o package.json:
 
 ⇒ npm init -y
 
 Este comando irá criar o arquivo de configuração padrão.
 
 
-**Passo 2: Instalando as dependências:**
+### Passo 2: Instalando as dependências:
 
 ⇒ npm i -D webpack webpack-cli
 
@@ -47,7 +47,7 @@ Instala plugin para limpar a pasta dist antes do build
 Este comando irá instalar um plugin que gerará um arquivo HTML5 para incluir todos os seus pacotes webpack usando tags.
 
 
-**Passo 3: Criando a estrutura de pastas:**
+### Passo 3: Criando a estrutura de pastas:
 
 Criar pastas abaixo:
 
@@ -58,7 +58,7 @@ Criar pastas abaixo:
 ./public
 
 
-**Passo 4: Configurando a estrutura de arquivos:**
+### Passo 4: Configurando a estrutura de arquivos:
 
 ⇒ Criar arquivo **src**/index.jsx e adicionar as configurações abaixo:
 
@@ -175,7 +175,7 @@ module.exports = {
 ```
 
 
-**Passo 6: Criando o .gitignore:**
+### Passo 6: Criando o .gitignore:
 
 ⇒ Criar arquivo .gitignore com os comandos abaixo:
 
@@ -195,11 +195,11 @@ module.exports = {
 ```
 
 
-**Passo 7: Rodando o projeto:**
+### Passo 7: Rodando o projeto:
 
 ⇒ npm start
 
 
-**Passo 8: Rodando o build:**
+### Passo 8: Rodando o build:
 
 ⇒ npm run build

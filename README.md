@@ -14,7 +14,7 @@
 
    
    
-### Passo 1: Criando o package.json:
+### <mark>Passo 1: Criando o package.json:</mark>
 
    ⇒ npm init -y
 

@@ -1,15 +1,14 @@
 {
-  "name": "webpack",
+  "name": "webpack-gustavocrs",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Silva",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
@@ -29,5 +28,15 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "main": "./src/index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavocrs/webpack-gustavocrs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gustavocrs/webpack-gustavocrs/issues"
+  },
+  "homepage": "https://github.com/Gustavocrs/webpack-gustavocrs#readme",
+  "description": ""
 }

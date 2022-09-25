@@ -14,7 +14,7 @@
 
    
    
-###!!! Passo 1: Criando o package.json:
+!!! Passo 1: Criando o package.json:
 
    ⇒ npm init -y
 

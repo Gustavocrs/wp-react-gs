@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   entry: path.resolve(__dirname, "./src/index.jsx"),
   output: {
-    filename: "build.js",
+    filename: "build.jsx",
     path: path.resolve(__dirname, "static"),
   },
   module: {

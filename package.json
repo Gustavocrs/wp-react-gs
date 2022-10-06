@@ -1,6 +1,7 @@
 {
-  "name": "webpack-gustavocrs",
+  "name": "wp-report",
   "version": "1.0.0",
+  "main": "./src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
@@ -18,8 +19,6 @@
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "jsxobj": "^1.1.0",
-    "react-refresh": "^0.14.0",
     "styled-components": "^5.3.5",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
@@ -28,15 +27,5 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "main": "./src/index.jsx",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gustavocrs/webpack-gustavocrs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Gustavocrs/webpack-gustavocrs/issues"
-  },
-  "homepage": "https://github.com/Gustavocrs/webpack-gustavocrs#readme",
-  "description": ""
+  }
 }

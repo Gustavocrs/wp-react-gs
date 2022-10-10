@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   entry: path.resolve(__dirname, "./src/index.jsx"),
   output: {
-    filename: "build.jsx",
+    filename: "build.js",
     path: path.resolve(__dirname, "static"),
   },
   module: {
@@ -14,14 +14,21 @@ module.exports = {
       {
         //Jsx & Js
         test: /\.(js|jsx)$/,
-        exclude: /node-modules/,
-        type: "text/javascript",
+        exclude: /(node-modules|bower_components)/,
         use: {
           loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+          },
         },
       },
       {
-        //Svgs
+        //CSS
+        test: /\.(css)$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        //SVGs
         test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
         type: "asset/inline",
       },

@@ -92,13 +92,10 @@
    export default App;
    ```
 
-   ⇒ Criar arquivo src/index.html com a configuração padrão do Emmet (! + Enter) e criar as tags abaixo dentro do <body>:
+   ⇒ Criar arquivo src/index.html com a configuração padrão do Emmet (! + Enter) e criar a tag abaixo dentro do <body>:
 
    ```
-   <body>
      <div id="root"></div>
-     <script src="index.jsx"></script>
-   </body>
    ```
 
    ⇒ Alterar o package.json e adicionar/alterar os scripts abaixo:

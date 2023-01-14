@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container } from "./components/Container/index.jsx";
 import { GlobalStyle } from "./components/GlobalStyle/index.jsx";
 
-import { getApi, postApi, deleteApi } from "./components/wrapperAPI/index.jsx";
+import { getApi, postApi, deleteApi } from "./wrapperAPI/index.jsx";
 
 const App = () => {
   let baseUrl = "https://jsonplaceholder.typicode.com/posts?_limit=3";

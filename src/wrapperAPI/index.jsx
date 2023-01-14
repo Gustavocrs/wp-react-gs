@@ -13,7 +13,7 @@ export const getApi = async (url, config) => {
   } else {
     await axios.get(url).then((response) => {
       data = response.data;
-      console.log("RESPOSTA GET SEM COM CONFIG");
+      console.log("RESPOSTA GET SEM CONFIG");
       console.log(data);
     });
   }

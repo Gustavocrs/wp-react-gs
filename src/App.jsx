@@ -7,7 +7,7 @@ import { getApi, postApi, deleteApi } from "./wrapperAPI/index.jsx";
 const App = () => {
   let baseUrl = "https://jsonplaceholder.typicode.com/posts?_limit=3";
   let baseUrlDelete = "https://jsonplaceholder.typicode.com/posts/";
-  let conf = [
+  let conf = [ 
     {
       headers: {
         "Content-type": "application/json",

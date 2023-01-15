@@ -7,10 +7,11 @@ export const getApi = async (url, config) => {
       .get(url)
       .then((response) => {
         data = response.data;
-        console.log("RESPOSTA GET COM CONFIG");
-        console.log(data);
-        console.log("Configurações GET");
-        console.log(config);
+        // console.log("RESPOSTA GET COM CONFIG");
+        // console.log(data);
+        // console.log("Configurações GET");
+        // console.log(config);
+        return data;
       })
       .catch((error) => console.log(error));
   } else {
@@ -18,8 +19,9 @@ export const getApi = async (url, config) => {
       .get(url)
       .then((response) => {
         data = response.data;
-        console.log("RESPOSTA GET SEM CONFIG");
-        console.log(data);
+        // console.log("RESPOSTA GET SEM CONFIG");
+        // console.log(data);
+        return data;
       })
       .catch((error) => console.log(error));
   }
@@ -34,6 +36,7 @@ export const postApi = (url, config) => {
         data = response.data;
         console.log("RESPOSTA POST");
         console.log(data);
+        return data;
       })
       .catch((error) => console.log(error));
   } else {
@@ -51,6 +54,7 @@ export const deleteApi = (url, config, id) => {
         data = response.data;
         console.log("RESPOSTA DELETE");
         console.log(data);
+        return data;
       })
       .catch((error) => console.log(error));
   } else {

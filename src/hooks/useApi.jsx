@@ -32,38 +32,3 @@ const useApi = ({
 };
 
 export default useApi;
-
-// export const postApi = (url, config) => {
-//   let data = "";
-//   if (config) {
-//     axios
-//       .post(url, config)
-//       .then((response) => {
-//         data = response.data;
-//         console.log("RESPOSTA POST");
-//         console.log(data);
-//         return data;
-//       })
-//       .catch((error) => console.log(error));
-//   } else {
-//     console.log("VOCÊ DEVE PASSAR UM ARRAY COM OS DADOS DO BODY");
-//   }
-// };
-
-// export const deleteApi = (url, config, id) => {
-//   let data = "";
-//   if (id) {
-//     let newUrl = url + id;
-//     axios
-//       .delete(newUrl, config)
-//       .then((response) => {
-//         data = response.data;
-//         console.log("RESPOSTA DELETE");
-//         console.log(data);
-//         return data;
-//       })
-//       .catch((error) => console.log(error));
-//   } else {
-//     console.log("VOCÊ DEVE PASSAR UM ARRAY COM OS DADOS DO BODY");
-//   }
-// };

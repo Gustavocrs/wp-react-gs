@@ -6,13 +6,11 @@ import useApi from "./hooks/useApi.jsx";
 
 const App = () => {
   const { response, loading, error } = useApi({
-    method: 'get',
+    method: "get",
     baseUrl: "https://jsonplaceholder.typicode.com/posts/",
     url: "?_limit=3",
   });
-
   const [data, setData] = useState([]);
-
   useEffect(() => {
     if (response !== null) {
       setData(response);

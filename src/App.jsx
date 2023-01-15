@@ -17,23 +17,34 @@ const App = () => {
     }
   }, [response]);
 
+  const hundleGet = () => (
+    <ul>{data && data.map((e) => <li key={e.id}>{e.title}</li>)}</ul>
+  );
+
   return (
     <Container>
       <GlobalStyle />
       <h1>New Webpack App</h1>
-      {loading ? (
-        <p>Carregando...</p>
-      ) : (
-        <ul>{data && data.map((e) => <li key={e.id}>{e.title}</li>)}</ul>
-      )}
-      <div>
-        <ul></ul>
-      </div>
+      <br/><br/><br/>
+      {loading ? <p>Carregando...</p> : hundleGet()}
     </Container>
   );
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let conf = [
 //   {

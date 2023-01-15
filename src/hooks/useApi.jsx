@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const useApi = ({
-  baseUrl = null,
-  url,
+  baseUrl,
+  url = null,
   method,
   body = null,
   headers = null,

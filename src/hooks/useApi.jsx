@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const useApiGet = ({
-  method,
+const useApi = ({
   baseUrl = null,
   url,
+  method,
   body = null,
   headers = null,
 }) => {
@@ -26,12 +26,12 @@ const useApiGet = ({
 
   useEffect(() => {
     getApi();
-  }, [baseUrl, url, body, headers]);
+  }, [method, baseUrl, url, body, headers]);
 
   return { response, error, loading };
 };
 
-export default useApiGet;
+export default useApi;
 
 // export const postApi = (url, config) => {
 //   let data = "";

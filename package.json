@@ -29,5 +29,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wp-react-gs": "^0.0.0"
-  }
+  },
+  "description": "[**Autor: Gustavo Silva**](https://github.com/Gustavocrs)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavocrs/wp-react-gs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gustavocrs/wp-react-gs/issues"
+  },
+  "homepage": "https://github.com/Gustavocrs/wp-react-gs#readme"
 }

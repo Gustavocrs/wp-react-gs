@@ -1,7 +1,9 @@
 # dependencies
 /node_modules
+/history
 /.pnp
 .pnp.js
+.history
 
 # production
 /build

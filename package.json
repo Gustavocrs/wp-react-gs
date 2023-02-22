@@ -1,8 +1,10 @@
 {
   "name": "wp-react-gs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.jsx",
-  "files": ["src/**/*"], 
+  "files": [
+    "src/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
